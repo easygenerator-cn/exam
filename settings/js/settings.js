@@ -470,7 +470,7 @@
                 fileExtension = file.name.split('.').pop().toLowerCase();
 
             if ($.inArray(fileExtension, imageUploader.supportedExtensions) === -1) {
-                imageUploader.status.fail({ title: '不支持的图片格式', description: '(支持的格式: ' + imageUploader.supportedExtensions.join(', ') + ')' });
+                imageUploader.status.fail({ title: '不支持的图片格式', description: '(支持的格式:' + imageUploader.supportedExtensions.join(', ') + ')' });
                 return;
             }
             if (file.size > imageUploader.maxFileSize * 1024 * 1024) {
