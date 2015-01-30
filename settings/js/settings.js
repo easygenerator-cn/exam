@@ -21,8 +21,8 @@
             data.enableXAPI = ko.observable(true),
 
             data.lrsOptions = [
-                { key: 'default', text: 'easygenerator (recommended)' },
-                { key: 'custom', text: 'custom LRS' }
+                { key: 'default', text: 'easygenerator(推荐)' },
+                { key: 'custom', text: '自定义接收方式' }
             ];
             data.selectedLrs = ko.observable(data.lrsOptions[0].key);
 
